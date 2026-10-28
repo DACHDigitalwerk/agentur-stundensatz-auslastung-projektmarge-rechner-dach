@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentur-stundensatz-auslastung-projektmarge-dach"
+version = "1.0.0"
+description = "DACH Agentur-, Consulting- & IT-Dienstleister Stundensatz-, Billable-Utilization-, KSK (5,0 %) & Projektmarge-Rechner 2026 (DE/AT/CH)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+[project.scripts]
+dach-agentur-marge = "agentur_stundensatz_projektmarge_dach.cli:main"
